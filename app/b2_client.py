@@ -142,7 +142,7 @@ class B2Client:
             logging.info(f"Successfully uploaded file {file_name} to B2")
             
             # Construct download URL
-            download_url = f"https://f004.backblazeb2.com/file/{self.bucket_name}/{file_name}"
+            download_url = f"https://media.sapphireapps.com/file/{self.bucket_name}/{file_name}"
             logging.info(f"Download URL: {download_url}")
             
             return download_url
